@@ -1,0 +1,14 @@
+encryption:
+  secretKey: secret
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/encryption
+    username: root
+    password: root
+    initialization-mode: always
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
